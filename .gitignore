@@ -1,0 +1,39 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/python
+# Edit at https://www.toptal.com/developers/gitignore?templates=python
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Environments
+venv/
+
+# VSCode
+.vscode/
+
+# Tensorboard log
+runs/
+
+# Weights
+*.pt
+*.weights
+*.pth
+
+# Shape file
+*.shapes
+
+# Data
+ailibs_data/*
+*.csv
+
+# Output
+output/
